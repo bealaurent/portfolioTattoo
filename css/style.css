@@ -1,0 +1,132 @@
+body {
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+h1 {
+    color: rgb(255, 229, 158);
+    font-size: 50px;
+    font-family: 'Bodoni Moda', serif;
+}
+
+h2 {
+    color: rgb(255, 255, 255);
+    font-size: 22px;
+}
+
+p {
+    color: white;
+}
+
+.artistas-texto {
+    font-family: 'Times New Roman', Times, serif;
+    color: rgb(255, 255, 255);
+}
+
+.content {
+    text-align: center;
+}
+
+.section {
+    height: 100vh;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    transition: background-image 1s ease-out;
+    background-size: cover;
+    background-position: center;
+}
+
+#inicio {
+    background: black;
+}
+
+#artistas {
+    background: grey;
+}
+
+#artista1 {
+    background: black;
+}
+
+#artista2 {
+    background: grey;
+}
+
+#social {
+    background: black;
+}
+
+.section.active {
+    background-size: cover;
+    background-position: center;
+}
+
+.button {
+    background-color: #111827;
+    border: 1px solid transparent;
+    border-radius: .75rem;
+    box-sizing: border-box;
+    color: #FFFFFF;
+    cursor: pointer;
+    flex: 0 0 auto;
+    font-family: "Inter var", ui-sans-serif, system-ui, -apple-system, system-ui, "Segoe UI", Roboto, "Helvetica Neue", Arial, "Noto Sans", sans-serif, "Apple Color Emoji", "Segoe UI Emoji", "Segoe UI Symbol", "Noto Color Emoji";
+    font-size: 1.125rem;
+    font-weight: 600;
+    line-height: 1.5rem;
+    padding: .75rem 1.2rem;
+    text-align: center;
+    text-decoration: none #6B7280 solid;
+    text-decoration-thickness: auto;
+    transition-duration: .2s;
+    transition-property: background-color, border-color, color, fill, stroke;
+    transition-timing-function: cubic-bezier(.4, 0, 0.2, 1);
+    user-select: none;
+    -webkit-user-select: none;
+    touch-action: manipulation;
+    width: auto;
+}
+
+.button:hover {
+    background-color: #374151;
+}
+
+.button:focus {
+    box-shadow: none;
+    outline: 2px solid transparent;
+    outline-offset: 2px;
+}
+
+
+@media (min-width: 768px) {
+    .content {
+        max-width: 90%;
+        padding: 20px;
+    }
+
+    .titulos-artistas {
+        letter-spacing: 0rem;
+        width: 100%;
+        font-size: 2em;
+        line-height: 1.25;
+    }
+
+    .button {
+        padding: .75rem 1.5rem;
+    }
+
+    .section {
+        height: auto;
+        padding: 40px 20px;
+    }
+
+    .artistas-texto {
+        letter-spacing: 0rem;
+        width: 100%;
+        font-size: 1.125em;
+        line-height: 1.625;
+    }
+
+}
