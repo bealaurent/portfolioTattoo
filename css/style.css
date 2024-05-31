@@ -6,7 +6,7 @@ body {
 
 h1 {
     color: rgb(255, 229, 158);
-    font-size: 50px;
+    font-size: 100px;
     font-family: 'Bodoni Moda', serif;
 }
 
@@ -17,11 +17,13 @@ h2 {
 
 p {
     color: white;
+    font-size: 30px;
 }
 
 .artistas-texto {
     font-family: 'Times New Roman', Times, serif;
     color: rgb(255, 255, 255);
+    font-size: 40px;
 }
 
 .content {
@@ -98,7 +100,6 @@ p {
     outline: 2px solid transparent;
     outline-offset: 2px;
 }
-
 
 @media (min-width: 768px) {
     .content {
