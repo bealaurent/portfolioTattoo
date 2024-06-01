@@ -83,7 +83,7 @@ nav{
     justify-content: center;
     align-items: center;
     padding: 1rem 2rem;
-    font-size: 1rem;
+    font-size: 25px;
     color: #fff;
     background-color: #afad3d;
     border-radius: 5px;
@@ -95,6 +95,10 @@ nav{
     background-color: #18181B;
 }
 
+.button i {
+    margin-right: 8px; 
+}
+
 .container{
     max-width: 1200px;
     margin: auto;
@@ -103,6 +107,7 @@ nav{
 
 .social {
     display: flex;
+    margin-top: 20px;
     justify-content: center;
     align-items: center;
     height: 100%;
@@ -213,6 +218,7 @@ section .header{
 
 .sub-header{
     max-width: 600px;
+    font-size: 20px;
     margin: auto;
     text-align: center;
     color: #ccc;
@@ -229,7 +235,7 @@ section .header{
         grid-area: 1/1/2/2;
     }
     .gallery-item {
-        flex: 1 1 calc(50% - 20px); /* Dois itens por linha */
+        flex: 1 1 calc(50% - 20px);
     }
 }
 
