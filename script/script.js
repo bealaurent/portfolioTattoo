@@ -1,21 +1,22 @@
-document.addEventListener('DOMContentLoaded', function() {
-    const sections = document.querySelectorAll('.section');
+function scrollToElement(elementSelector, instance = 0) {
+    const elements = document.querySelectorAll(elementSelector);
+    if (elements.length > instance) {
+        elements[instance].scrollIntoView({ behavior: 'smooth' });
+    }
+}
 
-    const options = {
-        threshold: 0.5
-    };
+const link1 = document.getElementById("link1");
+const link2 = document.getElementById("link2");
+const link3 = document.getElementById("link3");
 
-    let observer = new IntersectionObserver((entries, observer) => {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.classList.add('active');
-            } else {
-                entry.target.classList.remove('active');
-            }
-        });
-    }, options);
+link1.addEventListener('click', () => {
+    scrollToElement('.header');
+});
 
-    sections.forEach(section => {
-        observer.observe(section);
-    });
+link2.addEventListener('click', () => {
+    scrollToElement('.header', 1);
+});
+
+link3.addEventListener('click', () => {
+    scrollToElement('.column');
 });
