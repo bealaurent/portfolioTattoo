@@ -19,7 +19,7 @@ a{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-image: url("img/fundo1.jpg");
+    background: black ;
 }
 
 nav{
