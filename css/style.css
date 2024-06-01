@@ -79,6 +79,9 @@ nav{
 }
 
 .button{
+    display: flex;
+    justify-content: center;
+    align-items: center;
     padding: 1rem 2rem;
     font-size: 1rem;
     color: #fff;
@@ -104,7 +107,6 @@ nav{
     align-items: center;
     height: 100%;
     width: 100%;
-    margin-top: 100px;
 }
 
 .gallery {
@@ -119,7 +121,7 @@ nav{
 }
 
 .gallery-item {
-    flex: 1 1 calc(33.333% - 20px);
+    flex: 1 1 calc(25% - 20px);
     box-sizing: border-box;
     overflow: hidden;
     border-radius: 10px;
@@ -225,6 +227,9 @@ section .header{
     }
     header .image{
         grid-area: 1/1/2/2;
+    }
+    .gallery-item {
+        flex: 1 1 calc(50% - 20px); /* Dois itens por linha */
     }
 }
 
