@@ -19,7 +19,7 @@ a{
 
 body{
     font-family: 'Poppins', sans-serif;
-    background-color: #18181B;
+    background-image: url("/img/fundo1.jpg");
 }
 
 nav{
@@ -28,19 +28,18 @@ nav{
     padding: 2rem 1rem;
     display: flex;
     align-items: center;
-    justify-content: space-between;
+    justify-content: cemter;
     gap: 2rem;
-}
-
-.nav-logo{
-    max-width: 100px;
 }
 
 .nav-links{
     list-style: none;
     display: flex;
+    justify-content: center;
     align-items: center;
     gap: 3rem;
+    height: 100%;
+    width: 100%;
 }
 
 .link a{
@@ -143,12 +142,6 @@ nav{
 
 .gallery-item:hover {
     transform: scale(1.05);
-}
-
-.blur{
-    position: absolute;
-    box-shadow: 0 0 1000px 50px #1d4ed8;
-    z-index: -100;
 }
 
 header{
