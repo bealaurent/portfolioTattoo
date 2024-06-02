@@ -18,7 +18,7 @@ a{
 }
 
 body{
-    font-family: 'Poppins', sans-serif;
+    font-family: 'Poppins', sans-serif; 
     background: black ;
 }
 
@@ -63,20 +63,6 @@ nav{
     width: 70%;
 }
 
-.btn{
-    padding: 1rem 2rem;
-    font-size: 1rem;
-    color: #fff;
-    background-color: #18181B;
-    border-radius: 5px;
-    cursor: pointer;
-    transition: all 0.3s ease;
-}
-
-.btn:hover{
-    background-color: #18181B;
-}
-
 .button{
     display: flex;
     justify-content: center;
@@ -90,18 +76,35 @@ nav{
     transition: all 0.3s ease;
 }
 
+.buttonSocial{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding: 1rem 2rem;
+    font-size: 19px;
+    color: #fff;
+    background-color: #afad3d;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+}
+
 .button:hover{
     background-color: #18181B;
 }
 
 .button i {
-    margin-right: 8px; 
+    margin-right: 10px; 
+}
+
+.buttonSocial i {
+    margin-right: 10px; 
 }
 
 .container{
     max-width: 1200px;
     margin: auto;
-    padding: 5rem 2rem;
+    padding: 20px;
 }
 
 .social {
@@ -168,7 +171,20 @@ header .content h1{
     line-height: 4rem;
 }
 
+header .content h3{
+    color: #fff;
+    margin-bottom: 1rem;
+    font-size: 45px;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
 header .content h1 span{
+    -webkit-text-fill-color: transparent;
+    -webkit-text-stroke: 1px #ecca8a;
+}
+
+header .content h3 span{
     -webkit-text-fill-color: transparent;
     -webkit-text-stroke: 1px #ecca8a;
 }
