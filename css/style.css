@@ -249,6 +249,11 @@ section .header{
     header .image{
         grid-area: 1/1/2/2;
     }
+
+    header .imageProfissionais{
+        grid-area: 1/1/2/2;
+    }
+
     .gallery-item {
         flex: 1 1 calc(50% - 20px);
     }
@@ -256,6 +261,9 @@ section .header{
 
 @media (width < 600px){
     header .image::before{
+        display: none;
+    }
+    header .imageProfissionais::before{
         display: none;
     }
 }
