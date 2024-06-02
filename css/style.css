@@ -20,7 +20,7 @@ a{
 body{
     font-family: 'Poppins', sans-serif; 
     background: black;
-    background: url('img/fundo1.jpg') no-repeat center center;
+    background: url('../img/fundo1.jpg') no-repeat center center;
     background-size: cover;
 }
 
