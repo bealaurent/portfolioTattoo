@@ -95,6 +95,10 @@ nav{
     background-color: #18181B;
 }
 
+.buttonSocial:hover{
+    background-color: #18181B;
+}
+
 .button i {
     margin-right: 10px; 
 }
