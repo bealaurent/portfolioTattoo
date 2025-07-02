@@ -1,4 +1,4 @@
-# 💖 Studio da Say - Landing Page
+## 💖 Studio da Say - Landing Page
 
 Este é um projeto simples de landing page para o **Studio da Say**, feito com HTML, CSS e JavaScript. A página apresenta o estúdio, seus profissionais e uma galeria de trabalhos realizados.
 
@@ -12,18 +12,18 @@ A aplicação está organizada em três seções principais:
 
 ## 📁 Estrutura do Projeto
 
-  portfolioTattoo/
-  ├── index.html
-  ├── css/
-  │   └── style.css
-  ├── js/
-  │   └── script.js
-  └── img/
-      ├── logo.png
-      ├── artista2.jpg
-      ├── foto1.png
-      ├── foto2.png
-      └── foto3.png
+    portfolioTattoo/
+    ├── index.html
+    ├── css/
+    │   └── style.css
+    ├── js/
+    │   └── script.js
+    └── img/
+        ├── logo.png
+        ├── artista2.jpg
+        ├── foto1.png
+        ├── foto2.png
+        └── foto3.png
 
 ## 🔗 Bibliotecas e Recursos Utilizados
 
