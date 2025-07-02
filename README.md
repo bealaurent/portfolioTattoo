@@ -69,6 +69,6 @@ Você pode adaptar este projeto para:
 
   💡 Nenhum servidor é necessário, pois é um projeto totalmente estático.
 
-##✨ Autor
+## ✨ Autor
 
 Feito com 💜 por Beathriz Muniz
